@@ -1,2 +1,2 @@
 # win-dotfiles
-Powershell, NeoVim and Alacritty configurations
+Powershell, NeoVim and Alacritty windows configurations
