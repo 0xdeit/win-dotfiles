@@ -77,8 +77,7 @@ let g:python3_host_prog = 'C:\Python38\python.exe'
 
 " only create undofiles in the specified undodir
 set nobackup
-" TODO: replace with windows equivalent
-set undodir=~/.config/nvim/undodir
+set undodir=~\AppData\Local\nvim\undodir
 set undofile
 
 " <How to Do 90% of What Plugins Do (With Just Vim)> [https://www.youtube.com/watch?v=XA2WjJbmmoM]
@@ -95,8 +94,7 @@ set wildignore+=**/node_modules/**
 set wildmenu
 
 " vim-plug-section
-" TODO: replace with windows equivalent 
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~\AppData\Local\nvim\plugged')
 " TODO: Install in windows 
 " Comment/Uncomment
 " gc comment line
