@@ -95,7 +95,6 @@ set wildmenu
 
 " vim-plug-section
 call plug#begin('~\AppData\Local\nvim\plugged')
-" TODO: Install in windows 
 " Comment/Uncomment
 " gc comment line
 Plug 'tpope/vim-commentary'
@@ -259,21 +258,11 @@ nmap <leader>gs :G<CR>
 " nvim *nix extensions 
 "{
 "  "dependencies": {
-"    "coc-actions": ">=1.4.0",
-"    "coc-clangd": ">=0.4.10",
 "    "coc-cmake": ">=0.0.1",
-"    "coc-css": ">=1.2.3",
 "    "coc-cssmodules": ">=1.0.0",
 "    "coc-fish": ">=1.0.11",
-"    "coc-html": ">=1.2.4",
-"    "coc-json": ">=1.2.6",
 "    "coc-marketplace": ">=1.7.0",
-"    "coc-prettier": ">=1.1.14",
 "    "coc-python": ">=1.2.12",
-"    "coc-rust-analyzer": ">=0.7.4",
 "    "coc-snippets": ">=2.1.28",
-"    "coc-tsserver": ">=1.5.1",
-"    "coc-vimlsp": ">=0.8.0",
-"    "coc-yaml": ">=1.0.4"
 "  }
 "}

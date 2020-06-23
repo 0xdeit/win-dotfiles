@@ -33,3 +33,7 @@ Set-Alias psvim Edit-Profile
 Set-Alias psgvim Edit-Profile-G
 Set-Alias vimrc Edit-Nvim
 Set-Alias gvimrc Edit-Nvim-G
+
+function ubnt {
+    wsl -d Ubuntu
+}
