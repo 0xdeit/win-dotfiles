@@ -1,0 +1,12 @@
+set nocompatible
+colorscheme industry
+set number
+set noerrorbells
+set mouse=a
+set hidden
+set noswapfile
+set nobackup
+set autoread
+set guifont=JetBrains\ Mono\ Regular:h10
+" Maximize window when opening.
+au GUIEnter * simalt ~x
