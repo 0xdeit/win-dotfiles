@@ -22,3 +22,8 @@ set tabstop=4
 set softtabstop=4 
 set shiftwidth=4
 set smartindent
+" GUI components
+set guioptions-=m " Remove menu bar
+set guioptions-=T " Remove toolbar
+set guioptions-=r " Remove rh scroll
+set guioptions-=L " Remove lh scroll
