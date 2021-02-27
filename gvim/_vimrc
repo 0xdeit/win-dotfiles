@@ -1,6 +1,11 @@
 set nocompatible
 colorscheme industry
+syntax on
+filetype plugin on
+set background=dark
 set number
+set ruler
+set cursorline
 set noerrorbells
 set mouse=a
 set hidden
@@ -10,3 +15,10 @@ set autoread
 set guifont=JetBrains\ Mono\ Regular:h10
 " Maximize window when opening.
 au GUIEnter * simalt ~x
+" Issues with backspace on insert mode
+set backspace=indent,eol,start
+" what in indentation
+set tabstop=4 
+set softtabstop=4 
+set shiftwidth=4
+set smartindent
