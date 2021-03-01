@@ -5,14 +5,20 @@ filetype plugin on
 set background=dark
 set number
 set ruler
-set cursorline
+" Text/UI
+"set cursorline
+"highlight CursorLine guibg=#14190d
+"highlight CursorColumn guibg=#14190d
+" Only highlight the line and column in the active window.
+"au WinLeave * set nocursorline nocursorcolumn
+"au WinEnter * set cursorline cursorcolumn
 set noerrorbells
 set mouse=a
 set hidden
 set noswapfile
 set nobackup
 set autoread
-set guifont=JetBrains\ Mono\ Regular:h10
+set guifont=Mx437\ IBM\ DOS\ ISO9:h12
 " Maximize window when opening.
 au GUIEnter * simalt ~x
 " Issues with backspace on insert mode
@@ -27,3 +33,26 @@ set guioptions-=m " Remove menu bar
 set guioptions-=T " Remove toolbar
 set guioptions-=r " Remove rh scroll
 set guioptions-=L " Remove lh scroll
+" highlight n column
+set colorcolumn=80
+" splits
+set splitright
+set splitbelow
+" custom mappings
+nnoremap <F2> :edit ~/_vimrc<CR>
+nnoremap <F3> :source ~/_vimrc<CR>
+nnoremap <F4> :cd c:\code
+" Shortcuts based in the leader key
+let mapleader = " "
+	" move through splits
+nnoremap <leader>h :wincmd h<CR>
+nnoremap <leader>j :wincmd j<CR>
+nnoremap <leader>k :wincmd k<CR>
+nnoremap <leader>l :wincmd l<CR>
+	" create splits
+nnoremap <leader>sp :split<Space>
+nnoremap <leader>vp :vsplit<Space>
+	" std
+nnoremap <leader>q :quit<CR>
+nnoremap <leader>w :write<CR>
+
