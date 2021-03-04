@@ -55,4 +55,7 @@ nnoremap <leader>vp :vsplit<Space>
 	" std
 nnoremap <leader>q :quit<CR>
 nnoremap <leader>w :write<CR>
-
+	" tabs
+nnoremap <leader><TAB> :tabnext<CR>
+nnoremap <leader><S-TAB> :tabprevious<CR>
+nnoremap <leader>t :tabnew<Space>
